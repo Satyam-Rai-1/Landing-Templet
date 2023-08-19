@@ -1,0 +1,271 @@
+body
+{
+    background-color: rgb(29, 29, 29);
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .sec-button {
+
+            padding: 0;
+            margin-left: 10px;
+            margin-top: 20px;
+    }
+    .text-sec
+    {
+        text-align: center;
+    }
+    .email-sec
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    input[type='email'] ,[type='button']
+    {
+        font-size: 20px ;  
+        padding: 5px 20px;
+        outline: none; 
+    }
+    .email-sec>.button{
+        margin-top: 10px;
+
+    }
+    .custom-modal
+    {
+        padding: 40px 0;
+        
+        
+    }
+    .modal-img
+    {
+        width: 300px;
+    
+    
+    }
+    
+    .proj-text
+    {
+        text-align: center;
+    }
+    .proj-text>p
+    {
+        padding-top:10px;
+        text-align: justify;
+    }
+    .proj-img>img{
+    
+        width: 330px;
+    }
+    .extra-small
+    {
+        width: 90%;
+        
+    }
+    .extra-small>p
+    {
+        text-align: justify;
+        font-weight: 100;
+    }
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .sec-button {
+        margin-top: 20px;
+        margin-left: 10px;
+        
+        padding: 0;
+        
+    }
+    .text-sec
+    {
+        text-align: center;
+    }
+    .email-sec
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    input[type='email'] ,[type='button']
+    {
+        font-size: 20px ;  
+        padding: 5px 20px;
+        outline: none; 
+    }
+    .modal-img
+    {
+        width: 500px;
+    
+    
+    }
+    .email-sec>.button{
+        margin-top: 10px;
+
+    }
+    .extra-small
+    {
+        width: 90%;
+        
+    }
+    .extra-small>p
+    {
+        text-align: justify;
+        font-weight: 100;
+    }
+    .proj-text
+    {
+        text-align: center;
+    }
+    .proj-text>p
+    {
+       
+        padding-top:10px;
+        text-align: none;
+    }
+    .proj-img>img{
+    
+    
+        width: 500px;
+    }
+    hr
+    {
+        margin: 50px 40px;
+    }
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+    .sec-button {
+        margin-top: 20px;
+        margin-left: 20px;
+
+        padding: 0;
+        
+    }
+    input[type='email'] ,[type='button']
+    {
+        font-size: 2cqw ;  
+        padding: 5px 20px;
+        outline: none; 
+        
+    }
+    .modal-img
+    {
+        width: 500px;
+    
+    
+    }
+    .extra-small
+    {
+        width: 70%;
+        
+    }
+    .extra-small>p
+    {
+        text-align: justify;
+        font-weight: 100;
+    }
+    hr
+    {
+        margin-left: 140px;
+    }
+  }
+  
+  
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .email-sec>.button{
+        margin-top: 5px;
+
+    }
+    .modal-img
+    {
+        width: 100px;
+    
+    
+    }
+    .extra-small>p
+    {
+        padding-top:10px;
+        text-align: center;
+    }
+    .extra-small
+    {
+        width: 70%;
+        
+    }
+    .extra-small>p
+    {
+        text-align: justify;
+        font-weight: 100;
+    }
+    hr
+    {
+        margin-left: 140px;
+    }
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+    .email-sec
+    {
+        
+        display: flex;
+        flex-direction:row ;
+        justify-content: center;
+    
+    margin-top: 5px;
+        
+    }
+   
+    input[type='email'] 
+    {
+        /* font-size: 20px ;
+        margin-top: 15px;  
+        padding: 15px 20px;
+        box-sizing: border-box;
+        outline: none; 
+        margin-left: 5px; */
+        box-sizing: border-box;
+        border: none;
+        border-bottom:rgb(234, 0, 255) 3px solid;
+        background-color: rgba(36, 32, 40,0.5);
+        color: #fff;
+        font-size: 25px;
+    }
+
+    input[type='button']
+    {
+        margin-left: 10px;
+        border: none;
+        border-bottom:rgb(234, 0, 255) 3px solid;
+        background-color: blueviolet;
+        font-size: 25px;
+       margin: auto;
+    }
+    input[type='button']:hover
+    {
+        background-color: rgb(222, 226, 93);
+        
+    }
+    
+    
+
+}
